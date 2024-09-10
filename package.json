@@ -28,10 +28,14 @@
   },
   "homepage": "https://github.com/Horus-Turboss-Finance/mail_micro-service#readme",
   "dependencies": {
+    "checks": "file:../packages/checks",
+    "constraint": "file:../packages/constraint",
+    "dateformat": "file:../packages/dateFormat",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mailgen": "^2.0.28",
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^6.9.14",
+    "signed-service": "file:../packages/signed-service"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",

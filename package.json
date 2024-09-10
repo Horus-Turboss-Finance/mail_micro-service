@@ -1,6 +1,6 @@
 {
   "name": "mail_micro-service",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Micro-service gérant les mails du projet Cash Eyes",
   "main": "./build/index.js",
   "scripts": {
